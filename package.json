@@ -1,0 +1,21 @@
+{
+  "name": "hcluster",
+  "version": "0.0.0",
+  "description": "Horizontal cluster module for Node.js",
+  "scripts": {
+    "preversion": "npm test",
+    "lint": "standard",
+    "test": "npm run lint"
+  },
+  "repository": "github:sonnyp/cluster",
+  "author": "Sonny Piers <sonny@fastmail.net>",
+  "license": "ISC",
+  "bugs": "https://github.com/sonnyp/hcluster/issues",
+  "homepage": "https://github.com/sonnyp/hcluster#readme",
+  "dependencies": {
+    "async-each": "^1.0.0",
+    "debug": "^2.2.0",
+    "json-socket": "^0.1.2",
+    "ndjson": "^1.4.3"
+  }
+}
